@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0 auto;
 }
 
 p, .nav {
@@ -27,7 +27,7 @@ h2 {
 
 .nav a {
   padding: 6px;
-  border: 2px solid teal;
+  border: 1px solid teal;
   border-radius: 2px;
   color: white;
   background: teal;
