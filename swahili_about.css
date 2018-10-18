@@ -72,3 +72,7 @@ h2 {
 p {
   padding: 10px;
 }
+
+.container h1{
+  margin-bottom: 15px;
+}
