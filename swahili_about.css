@@ -18,7 +18,8 @@ p, .nav, h1, h2 {
 h1 {
   text-transform: uppercase;
   font-family: brush script mt;
-  font-size: 40px;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -49,6 +50,25 @@ h2 {
   width: 100%;
 }
 
+.intro, .location, .value {
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+  border: 1px dotted red;
+  border-radius: 3px;
+  margin: 0px 38px;
+}
+
+.location {
+  position: relative;
+  top: 25px;
+}
+
+.value {
+  position: relative;
+  bottom: 50px;
+}
+
 p {
-  padding:
+  padding: 10px;
 }
