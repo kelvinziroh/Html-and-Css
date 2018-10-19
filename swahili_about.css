@@ -17,9 +17,11 @@ p, .nav, h1, h2 {
 
 h1 {
   text-transform: uppercase;
-  font-family: brush script mt;
+  font-family: 'Anton', sans-serif;
   font-size: 50px;
   margin-bottom: 15px;
+  position: relative;
+  top: 25px;
 }
 
 h2 {
@@ -35,6 +37,8 @@ h2 {
   margin-left: 10px;
   margin-right: 10px;
   text-decoration: none;
+  position: relative;
+  top: 15px;
 }
 
 .nav a:hover {
@@ -48,15 +52,21 @@ h2 {
   background-color: rgba(0,128,128,0.5);
   padding-bottom: 30px;
   width: 100%;
+  height: 120px;
 }
 
 .intro, .location, .value {
   display: inline-block;
-  height: 400px;
-  width: 400px;
-  border: 1px dotted red;
+  border: 1px dotted teal;
   border-radius: 3px;
+  height: 500px;
+  width: 400px;
   margin: 0px 38px;
+}
+
+.paragraphs {
+  position: relative;
+  top: 50px;
 }
 
 .location {
@@ -74,5 +84,75 @@ p {
 }
 
 .container h1{
+  padding-top: 3px;
   margin-bottom: 15px;
+  font-family: 'Bree Serif', serif;
+}
+
+.container .text {
+  position: relative;
+  top: 170px;
+  right: 190px;
+}
+
+.container img{
+  width: 400px;
+  height: 550px;
+  float: right;
+  position: relative;
+  bottom: 227px;
+  margin-bottom: 0px;
+}
+
+.container {
+  background-color: rgba(0,128,128,0.7);
+  height: 550px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 16px;
+}
+
+.container a {
+  margin-top: 10px;
+  padding: 6px;
+  border: 1px solid teal;
+  border-radius: 2px;
+  color: white;
+  background: teal;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: teal;
+  background: white;
+}
+
+.links li {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  left: 150px;
+  padding: 0px 50px;
+  color: silver;
+}
+
+.links li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: geneva;
+  color: silver;
+}
+
+.links li a:hover {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  height: 152px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 50px;
 }
